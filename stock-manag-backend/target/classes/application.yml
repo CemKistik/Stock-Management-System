@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: stock-manag
+  jpa:
+    hibernate:
+      ddl-auto: update
+    #jpa:
+      # properties:
+      #hibernate:
+    #dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/stock?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1234
+
+app:
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration:
+      minutes: 10
+  cors:
+    allowed-origins: http://localhost:3000
+
+logging:
+  level:
+    org.springframework.security: DEBUG

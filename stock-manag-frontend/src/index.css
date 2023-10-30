@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ui.container{
+  height: 1000;
+  display:flex;
+  flex-direction: column;
+  font-size: large;
+  margin: 0px,15px, 0px, 16px;
+  justify-content: center;
+  align-items: left;
+}
+
+.y{
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+}
+
+.tselogo{
+  padding-left: 0%;
+}
+
+.menu{
+  
+  width:auto;
+}
+
+.Background{ 
+  height: 1000;
+}
+
+
